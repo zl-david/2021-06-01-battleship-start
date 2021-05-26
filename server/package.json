@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "fastify": "^2.15.1",
+    "moniker": "^0.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
